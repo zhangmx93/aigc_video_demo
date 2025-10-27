@@ -1,0 +1,89 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Video/Audio related files (generated/temporary)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.flv
+*.wmv
+*.m4a
+*.mp3
+*.wav
+*.aac
+*.ogg
+*.flac
+*.wma
+
+# Temporary video/audio files
+*_temp.mp4
+*_temp.mov
+*_temp.wav
+*_temp.m4a
+extracted_audio_*.mp3
+extracted_audio_*.m4a
+audio_*.mp3
+audio_*.m4a
+my_video_*.mp4
+
+# Thumbnail cache
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.webp
+!assets/**/*.jpg
+!assets/**/*.jpeg
+!assets/**/*.png
+!assets/**/*.gif
+!assets/**/*.bmp
+!assets/**/*.webp
+
+# FFmpeg logs
+ffmpeg*.log
+ffmpeg_output.txt
